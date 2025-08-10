@@ -48,8 +48,9 @@ The machine learning model was trained using `scikit-learn` and deployed in a si
        source venv/bin/activate  # For Mac/Linux
 
 3.**Install Dependencies**
-   ```bash
-   pip install -r requirements.txt`
+
+
+    pip install -r requirements.txt 
 
 4.**Place the Model File**
 
