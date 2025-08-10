@@ -21,6 +21,7 @@ The machine learning model was trained using `scikit-learn` and deployed in a si
 - **scikit-learn** – Machine learning model
 - **Joblib** – Model serialization
 
+## 📂 Project Structure
 ---
 📦 Breast-Cancer-Detection-using-ML
 ├── app.py # Flask app
@@ -36,11 +37,34 @@ The machine learning model was trained using `scikit-learn` and deployed in a si
 ## ⚙️ Installation & Setup
 
 1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/Vishurajput333/Breast-Cancer-Detection-using-ML.git
-   cd Breast-Cancer-Detection-using-ML
+      ```bash
+       git clone https://github.com/Vishurajput333/Breast-Cancer-Detection-using-ML.git
+       cd Breast-Cancer-Detection-using-ML```
 
-2
+2. **Create Virtual Environment (Optional but Recommended)**
+   
+       python -m venv venv
+       venv\Scripts\activate   # For Windows
+       source venv/bin/activate  # For Mac/Linux
+
+3.**Install Dependencies**
+   ```bash
+   pip install -r requirements.txt`
+
+4.**Place the Model File**
+
+*Ensure breast_cancer_detector.pickle is in the root project folder.
+
+*Update model_path in app.py if your file location is different.
+
+5.**Run the Application**
+
+
+    python app.py
+    
+*The app will run locally at:*
+
+    http://127.0.0.1:5000/
    
 
 📊 Input Features
@@ -65,5 +89,4 @@ GitHub: @Vishurajput333
 
 
 
-## 📂 Project Structure
 
