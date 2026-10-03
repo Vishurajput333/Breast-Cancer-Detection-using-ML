@@ -83,7 +83,7 @@ This project is licensed under the MIT License.
 Pull requests are welcome. For major changes, please open an issue first to discuss your ideas.
 
 👤 Author
-Vishu Rajput
+Vishwajeet singh manhas
 
 GitHub: @Vishurajput333
 
